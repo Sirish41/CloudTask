@@ -7,8 +7,11 @@
 	</br> 
 	<?php
 	      echo "Thank you for choosing ", $_POST['dropcourse'], " department\n";
-        echo "For further correspondence, you will be reached at; Phone: ", $_POST['Ph'],
-          "\nEmail: ", $_POST['mail'], "\nAddress: ", $_POST['addr'];
+        echo "For further correspondence, you will be reached at; Phone: ", $_POST['Ph'];
+	</br>
+        echo "Email: ", $_POST['mail'];
+	</br>
+	echo "Address: ", $_POST['addr'];
 	?>
 
 </body>
