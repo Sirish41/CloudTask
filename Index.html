@@ -1,7 +1,10 @@
 <html>
 <script>
 	function sub(){
-		alert("Your form has been submitted");
+		var Name = document.getElementById("N1").value;
+		var addr = document.getElementById("addr").value;
+		var ph = document.getElementById("Ph").value;
+		alert("Further correspondence will be done on"+"Address: "+addr+"and Phone:qwerqewr "+ph);
 	}
 </script>
 <style>
@@ -13,7 +16,7 @@
 </style>
 <body>
 	<div id="wa">
-		<form style="margin-top: 20px; padding: 15px;" action="reg.php" method="post">
+		<form style="margin-top: 20px; padding: 15px;">
 			<p>
 				<label for="N1">First name:</label>
 				<input id="N1" type="text">
@@ -47,8 +50,7 @@
 			</p>
 			<p>
 			<label for="Ph">Phone:</label>
-			<input id="Ph" type="text" value="+91" size="2">
-			<input type="text">
+			<input id="Ph" type="text">
 			</p>
 			<p>
 			<label for="addr">Address:<label>
